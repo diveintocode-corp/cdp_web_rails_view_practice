@@ -13,22 +13,20 @@
 
   <div class="field">
     <%= form.label :name %>
-    <%= form.text_field :name %>
   </div>
 
   <div class="field">
     <%= form.label :detail %>
-    <%= form.text_area :detail %>
   </div>
 
   <div class="field">
     <%= form.label :status %>
-    <%= form.select :status, Blog.statuses.keys.to_a, {} %>
+    <%= form.number_field :status %>
   </div>
 
   <div class="field">
     <%= form.label :finished_at %>
-    <%= form.datetime_field :finished_at %>
+    <%= form.datetime_select :finished_at %>
   </div>
 
   <div class="actions">
