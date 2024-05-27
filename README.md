@@ -17,8 +17,8 @@ rails db:migrate
 
 ## 使用バージョン
 ```
-Rails 6.0.3
-Ruby 2.6.5
-Node.js 14.4.0
+Rails 6.1.7.7
+Ruby 3.3.0
+Node.js 18.x
 ```
 
